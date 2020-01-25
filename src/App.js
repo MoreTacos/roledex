@@ -11,7 +11,6 @@ class App extends React.Component {
       searchField: ''
     };
   }
-
   componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(res => res.json())
